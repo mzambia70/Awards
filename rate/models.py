@@ -60,14 +60,14 @@ class Project(models.Model):
     rating = models.CharField(max_length = 30, default = 0)
 
     def __str__(self):
-        return self.caption
+        return self.main_user.username
 
     def save_project(self):
         self.save()
 
     def delete_project(project_id):
         Project.objects.filter(id = project_id).delete()
-
+    
     def update_project(project_id, xcaption):
         Project.objects.filter(id = project_id).update(description = xcaption)
 
