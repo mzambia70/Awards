@@ -1,4 +1,4 @@
-# RateAproject
+# AWARDS
 #### This is a online application where a user can create an account and load and display their projects to be reviewed by other users. Users can also rate projects by other users and can also have their projects rated, 01/07/2019
 
 ## Description
